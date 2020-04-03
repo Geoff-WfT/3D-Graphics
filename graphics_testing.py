@@ -24,7 +24,7 @@ class TransformationMatrices:
     return  numpy.matrix ([ cosTh,      0,  sinTh, 0, \
                                 0,      1,      0, 0, \
                            -sinTh,      0,  cosTh, 0, \
-                                 0,     0,      0, 1 ]  ).reshape(4,4)
+                                 0,     0,      0, 1 ]  ).reshape(4,4) 
  
   @classmethod  
   def GetTrMatrixAroundZ(cls,theta):
